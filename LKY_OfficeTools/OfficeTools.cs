@@ -46,7 +46,8 @@ namespace LKY_OfficeTools
             Console.Title = $"{AppAttribute.AppName} v{AppAttribute.AppVersion}";
             ///Header
             new Log($"{AppAttribute.AppName} [版本 {AppAttribute.AppVersion}]\n" +
-                $"版权所有（C）LiuKaiyuan (Odysseus.Yuan)。保留所有权利。\n\n" +
+                $"版权所有（C）LiuKaiyuan (Odysseus.Yuan)。保留所有权利。\n" +
+                $"老毛重新修订版本 2023-11-28 \n\n" +
                 $"探讨 {AppAttribute.AppName} 相关内容，可发送邮件至：liukaiyuan@sjtu.edu.cn", ConsoleColor.Gray);
 
             //清理冗余信息
